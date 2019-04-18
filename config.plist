@@ -25,68 +25,14 @@
 				<key>FixRTC</key>
 				<false/>
 				<key>FixRegions</key>
+				<true/>
+				<key>FixS3D</key>
 				<false/>
 				<key>FixTMR</key>
 				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
-				<dict>
-					<key>Comment</key>
-					<string>change EHC1 to EH01</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RUhDMQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUgwMQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change EHC2 to EH02</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RUhDMg==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUgwMg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change XHCI to XHC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					WEhDSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WEhDXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change XHC1 to XHC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					WEhDMQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WEhDXw==
-					</data>
-				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change H_EC to EC</string>
@@ -320,21 +266,6 @@
 			<key>NoOemTableId</key>
 			<false/>
 		</dict>
-		<key>SortedOrder</key>
-		<array>
-			<string>SSDT-NVMe.aml</string>
-			<string>SSDT-ARPT-RP06-4352.aml</string>
-			<string>SSDT-Dell_FN.aml</string>
-			<string>SSDT-Disable_DGPU.aml</string>
-			<string>SSDT-IMEI.aml</string>
-			<string>SSDT-PluginType1.aml</string>
-			<string>SSDT-PNLF.aml</string>
-			<string>SSDT-PRW.aml</string>
-			<string>SSDT-UIAC-ALL.aml</string>
-			<string>SSDT-XOSI-WIN10.aml</string>
-			<string>SSDT-ALS0.aml</string>
-			<string>HP_lid.aml</string>
-		</array>
 		<key>SortedOrder 2</key>
 		<array>
 			<string>SSDT-PNLF.aml</string>
@@ -347,7 +278,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>abm_firstpolldelay=16000 -lilubetaall -applealcbeta debug=0x100 kext-dev-mode=1 -cpufbeta dart=0 -cpufdbg nv_disable=1 -igfxbeta darkwake=0 -disablegfxfirmware</string>
+		<string>abm_firstpolldelay=16000 -lilubetaall -applbklbeta -applealcbeta debug=0x100 kext-dev-mode=1 -cpufbeta dart=0 -cpufdbg nv_disable=1 -igfxbeta darkwake=0 -disablegfxfirmware</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -355,7 +286,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>10</integer>
+		<integer>3</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -504,11 +435,11 @@
 			<dict>
 				<key>device-id</key>
 				<data>
-				cKEAAA==
+				cJ0AAA==
 				</data>
 				<key>layout-id</key>
 				<data>
-				AwAAAA==
+				FQAAAA==
 				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
@@ -533,6 +464,10 @@
 				<data>
 				AQAAAA==
 				</data>
+				<key>framebuffer-con0-enable</key>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-con1-enable</key>
 				<data>
 				AQAAAA==
@@ -548,6 +483,10 @@
 				<key>framebuffer-con2-index</key>
 				<data>
 				/////w==
+				</data>
+				<key>framebuffer-con2-pipe</key>
+				<data>
+				EgAAAA==
 				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
@@ -565,12 +504,6 @@
 				<data>
 				AAAwAQ==
 				</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
-				</data>
-				<key>model</key>
-				<string>Intel Iris Plus Graphics 655</string>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -595,78 +528,6 @@
 	<dict>
 		<key>#ScreenResolution</key>
 		<string>1920x1080</string>
-		<key>Custom</key>
-		<dict>
-			<key>Entries</key>
-			<array>
-				<dict>
-					<key>Disabled</key>
-					<false/>
-					<key>Hidden</key>
-					<false/>
-					<key>Hotkey</key>
-					<string>G</string>
-					<key>Ignore</key>
-					<false/>
-					<key>Path</key>
-					<string>\EFI\BOOT\grubx64.efi</string>
-					<key>Title</key>
-					<string>Grub2 UEFI</string>
-					<key>Type</key>
-					<string>Linux</string>
-				</dict>
-				<dict>
-					<key>Disabled</key>
-					<false/>
-					<key>Hidden</key>
-					<false/>
-					<key>Hotkey</key>
-					<string>R</string>
-					<key>Ignore</key>
-					<false/>
-					<key>Image</key>
-					<string>\EFI\refind\icons\os_refind.png</string>
-					<key>Path</key>
-					<string>\EFI\refind\refind_x64.efi</string>
-					<key>Title</key>
-					<string>rEFInd</string>
-					<key>Type</key>
-					<string>Linux</string>
-				</dict>
-				<dict>
-					<key>Disabled</key>
-					<false/>
-					<key>Hidden</key>
-					<true/>
-					<key>Ignore</key>
-					<false/>
-					<key>NoCaches</key>
-					<false/>
-					<key>Type</key>
-					<string>OSXRecovery</string>
-				</dict>
-				<dict>
-					<key>Disabled</key>
-					<false/>
-					<key>Ignore</key>
-					<false/>
-					<key>Title</key>
-					<string>Windows</string>
-					<key>Type</key>
-					<string>Windows</string>
-				</dict>
-				<dict>
-					<key>Disabled</key>
-					<false/>
-					<key>Ignore</key>
-					<false/>
-					<key>Title</key>
-					<string>Recovery Image</string>
-					<key>Type</key>
-					<string>Windows</string>
-				</dict>
-			</array>
-		</dict>
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
@@ -675,6 +536,7 @@
 			<string>cdboot.efi</string>
 			<string>bootmgr.efi</string>
 			<string>Recovery Image</string>
+			<string>Recovery</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
@@ -693,7 +555,7 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>SimpleThemeDark</string>
+		<string>Bootcamp2k</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -723,7 +585,7 @@
 		<key>DellSMBIOSPatch</key>
 		<false/>
 		<key>FakeCPUID</key>
-		<string>0x0906e9</string>
+		<string>0x0506e3</string>
 		<key>ForceKextsToLoad</key>
 		<array>
 			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
@@ -809,24 +671,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable TRIM for SSD</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AEFQUExFIFNTRAA=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.iokit.IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAAA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>0x19160000/etc, 32MB BIOS, 19MB framebuffer 9MB cursor bytes (credit RehabMan)</string>
 				<key>Disabled</key>
 				<false/>
@@ -899,24 +743,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>AppleBacklightInjector.kext (credit RehabMan)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				RiV1VCUwNHgA
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleBacklight</string>
-				<key>Replace</key>
-				<data>
-				RiV1VHh4eHgA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>HDMI-audio补丁,端口0105,0x59160000</string>
 				<key>Disabled</key>
 				<false/>
@@ -935,6 +761,24 @@
 				AQUJAAAIAACHAQAA
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port limit patch 10.14 (credits FredWst)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g/sPD4MDBQAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>
+				g/sPkJCQkJCQ
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -945,23 +789,23 @@
 		<string>0x67</string>
 		<key>ROM</key>
 		<data>
-		n67hs/Mn
+		+w0aBfEn
 		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>06/26/2018</string>
+		<string>09/17/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP141.88Z.0178.B00.1806260902</string>
+		<string>MBP141.88Z.F000.B00.1809171524</string>
 		<key>Board-ID</key>
 		<string>Mac-B4831CEBD52A0C4C</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C026532004NDM6CJC</string>
+		<string>C02713701CDHWVPCB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -972,6 +816,8 @@
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>184.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -989,9 +835,7 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02T1RZWHV29</string>
-		<key>SmUUID</key>
-		<string>2AA090FE-8781-44C9-BD4B-CAEB93B3F327</string>
+		<string>C02THKZ0HV29</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
@@ -999,12 +843,8 @@
 	<dict>
 		<key>#BacklightLevel</key>
 		<integer>0</integer>
-		<key>CustomUUID</key>
-		<string>5365A3C2-2EC3-4E4B-A0C3-60BBCDECF201</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
-		<key>InjectSystemID</key>
-		<true/>
 	</dict>
 </dict>
 </plist>
