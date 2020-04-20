@@ -337,7 +337,7 @@
 		<key>Arguments</key>
 		<string>-v</string>
 		<key>CustomLogo</key>
-		<string>Apple</string>
+		<false/>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -350,6 +350,8 @@
 		<true/>
 		<key>NeverHibernate</key>
 		<false/>
+		<key>NoEarlyProgress</key>
+		<true/>
 		<key>RtcHibernateAware</key>
 		<false/>
 		<key>SignatureFixup</key>
