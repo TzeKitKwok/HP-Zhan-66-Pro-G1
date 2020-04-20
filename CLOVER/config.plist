@@ -668,11 +668,11 @@
 		<key>PlayAsync</key>
 		<false/>
 		<key>ScreenResolution</key>
-		<string>1280x1024</string>
+		<string>1920x1080</string>
 		<key>ShowOptimus</key>
 		<false/>
 		<key>Theme</key>
-		<string>Clovy</string>
+		<string>Bootcamp2k</string>
 		<key>Timezone</key>
 		<integer>3</integer>
 	</dict>
