@@ -335,7 +335,7 @@
 		<key>#XMPDetection</key>
 		<string>-1</string>
 		<key>Arguments</key>
-		<string>-v debug=0x100</string>
+		<string>-v</string>
 		<key>CustomLogo</key>
 		<string>Apple</string>
 		<key>Debug</key>
@@ -465,6 +465,23 @@
 		<string>0x710</string>
 		<key>#NoDefaultProperties</key>
 		<true/>
+		<key>#SetIntelBacklight</key>
+		<false/>
+		<key>#SetIntelMaxBacklight</key>
+		<true/>
+		<key>Audio</key>
+		<dict>
+			<key>#Inject</key>
+			<string>12</string>
+			<key>AFGLowPowerState</key>
+			<true/>
+			<key>ResetHDA</key>
+			<true/>
+		</dict>
+		<key>HDMIInjection</key>
+		<false/>
+		<key>LANInjection</key>
+		<false/>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
@@ -508,23 +525,6 @@
 				<string>Intel HD Graphics 620</string>
 			</dict>
 		</dict>
-		<key>#SetIntelBacklight</key>
-		<false/>
-		<key>#SetIntelMaxBacklight</key>
-		<true/>
-		<key>Audio</key>
-		<dict>
-			<key>#Inject</key>
-			<string>12</string>
-			<key>AFGLowPowerState</key>
-			<true/>
-			<key>ResetHDA</key>
-			<true/>
-		</dict>
-		<key>HDMIInjection</key>
-		<false/>
-		<key>LANInjection</key>
-		<false/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
