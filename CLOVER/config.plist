@@ -674,7 +674,7 @@
 		<key>ShowOptimus</key>
 		<false/>
 		<key>Theme</key>
-		<string>Bootcamp2k</string>
+		<string>SimpleThemeDark</string>
 		<key>Timezone</key>
 		<integer>3</integer>
 	</dict>
