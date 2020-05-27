@@ -530,192 +530,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,0,0</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,20,0</string>
-				<key>device_type</key>
-				<string>USB controller</string>
-				<key>model</key>
-				<string>Sunrise Point-LP USB 3.0 xHCI Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,20,2</string>
-				<key>device_type</key>
-				<string>Signal processing controller</string>
-				<key>model</key>
-				<string>Sunrise Point-LP Thermal subsystem</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,21,0</string>
-				<key>device_type</key>
-				<string>Signal processing controller</string>
-				<key>model</key>
-				<string>Sunrise Point-LP Serial IO I2C Controller #0</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x15,0x1)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,21,1</string>
-				<key>device_type</key>
-				<string>Signal processing controller</string>
-				<key>model</key>
-				<string>Sunrise Point-LP Serial IO I2C Controller #1</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,22,0</string>
-				<key>device_type</key>
-				<string>Communication controller</string>
-				<key>model</key>
-				<string>Sunrise Point-LP CSME HECI #1</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,23,0</string>
-				<key>device_type</key>
-				<string>SATA controller</string>
-				<key>model</key>
-				<string>Sunrise Point-LP SATA Controller [AHCI mode]</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Sunrise Point-LP PCI Express Root Port #1</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x4)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,4</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Sunrise Point-LP PCI Express Root Port #5</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x4)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,4/0,0</string>
-				<key>device_type</key>
-				<string>Ethernet controller</string>
-				<key>model</key>
-				<string>RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x5)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,5</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Sunrise Point-LP PCI Express Root Port #6</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x5)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,5/0,0</string>
-				<key>device_type</key>
-				<string>Network controller</string>
-				<key>model</key>
-				<string>BCM4352 802.11ac Wireless Network Adapter</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1d,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,29,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Sunrise Point-LP PCI Express Root Port #9</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1d,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,29,0/0,0</string>
-				<key>device_type</key>
-				<string>Non-Volatile memory controller</string>
-				<key>model</key>
-				<string>NVMe SSD Controller SM961/PM961</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1d,0x3)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,29,3</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>???</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1d,0x3)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,29,3/0,0</string>
-				<key>device_type</key>
-				<string>Unassigned class</string>
-				<key>model</key>
-				<string>RTS522A PCI Express Card Reader</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,0</string>
-				<key>device_type</key>
-				<string>ISA bridge</string>
-				<key>model</key>
-				<string>Sunrise Point LPC Controller/eSPI Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x2)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,2</string>
-				<key>device_type</key>
-				<string>Memory controller</string>
-				<key>model</key>
-				<string>Sunrise Point-LP PMC</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,3</string>
-				<key>device-id</key>
-				<data>cJ0AAA==</data>
-				<key>device_type</key>
-				<string>Audio device</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>layout-id</key>
-				<data>FQAAAA==</data>
-				<key>model</key>
-				<string>100 Series/C230 Series Chipset Family HD Audio Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,4</string>
-				<key>device_type</key>
-				<string>SMBus</string>
-				<key>model</key>
-				<string>Sunrise Point-LP SMBus</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
@@ -741,14 +555,24 @@
 				<key>model</key>
 				<string>Intel HD Graphics 620</string>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>device-id</key>
+				<data>cJ0AAA==</data>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>layout-id</key>
+				<data>FQAAAA==</data>
+				<key>model</key>
+				<string>100 Series/C230 Series Chipset Family HD Audio Controller</string>
+			</dict>
 		</dict>
 		<key>Block</key>
-		<dict>
-			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
-			<array>
-				<string>MaximumBootBeepVolume</string>
-			</array>
-		</dict>
+		<dict/>
 	</dict>
 	<key>Kernel</key>
 	<dict>
@@ -827,22 +651,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCProcessor</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>SMCSuperIO.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCSuperIO</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -996,22 +804,6 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AirportBrcmFixup</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -1138,6 +930,22 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>AirportBrcmFixup.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirportBrcmFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -1184,34 +992,6 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
-				<key>Replace</key>
-				<data>ww==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string>__ZN8AppleRTC14updateChecksumEv</string>
-				<key>Comment</key>
-				<string>Disable RTC checksum update on poweroff</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data></data>
-				<key>Identifier</key>
-				<string>com.apple.driver.AppleRTC</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
 				<key>Replace</key>
 				<data>ww==</data>
 				<key>ReplaceMask</key>
@@ -1279,7 +1059,7 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<false/>
+			<true/>
 			<key>AppleXcpmCfgLock</key>
 			<true/>
 			<key>AppleXcpmExtraMsrs</key>
@@ -1290,6 +1070,8 @@
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
+			<key>DisableRtcChecksum</key>
+			<false/>
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
@@ -1311,19 +1093,17 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-			<string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
+			<key>ConsoleAttributes</key>
+			<integer>0</integer>
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideAuxiliary</key>
 			<false/>
 			<key>HideSelf</key>
 			<false/>
-			<key>ConsoleAttributes</key>
-			<integer>0</integer>
 			<key>PickerAttributes</key>
 			<integer>0</integer>
 			<key>PickerAudioAssist</key>
@@ -1337,7 +1117,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>0</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1377,6 +1157,8 @@
 			<false/>
 			<key>AuthRestart</key>
 			<false/>
+			<key>BootProtect</key>
+			<string>None</string>
 			<key>ExposeSensitiveData</key>
 			<integer>2</integer>
 			<key>HaltLevel</key>
@@ -1416,6 +1198,20 @@
 				<key>Path</key>
 				<string>memcheck/memcheck.efi</string>
 			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string>Shutdown</string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string>Perform shutdown</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Name</key>
+				<string>Shutdown</string>
+				<key>Path</key>
+				<string>ResetSystem.efi</string>
+			</dict>
 		</array>
 	</dict>
 	<key>NVRAM</key>
@@ -1429,12 +1225,17 @@
 				<key>UIScale</key>
 				<data>AQ==</data>
 			</dict>
+			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+			<dict>
+				<key>rtc-blacklist</key>
+				<data></data>
+			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v</string>
+				<string>-v brcmfx-country=#a</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1447,6 +1248,10 @@
 			<array>
 				<string>UIScale</string>
 				<string>DefaultBackgroundColor</string>
+			</array>
+			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+			<array>
+				<string>rtc-blacklist</string>
 			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
@@ -1484,7 +1289,7 @@
 			</array>
 		</dict>
 		<key>WriteFlash</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -1518,6 +1323,19 @@
 	</dict>
 	<key>UEFI</key>
 	<dict>
+		<key>APFS</key>
+		<dict>
+			<key>EnableJumpstart</key>
+			<true/>
+			<key>HideVerbose</key>
+			<true/>
+			<key>JumpstartHotPlug</key>
+			<true/>
+			<key>MinDate</key>
+			<integer>0</integer>
+			<key>MinVersion</key>
+			<integer>0</integer>
+		</dict>
 		<key>Audio</key>
 		<dict>
 			<key>AudioCodec</key>
@@ -1540,7 +1358,6 @@
 		<key>Drivers</key>
 		<array>
 			<string>HfsPlus.efi</string>
-			<string>ApfsDriverLoader.efi</string>
 			<string>OpenRuntime.efi</string>
 		</array>
 		<key>Input</key>
@@ -1589,7 +1406,7 @@
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
 		</dict>
-		<key>Protocols</key>
+		<key>ProtocolOverrides</key>
 		<dict>
 			<key>AppleAudio</key>
 			<false/>
@@ -1603,6 +1420,8 @@
 			<false/>
 			<key>AppleKeyMap</key>
 			<false/>
+			<key>AppleRtcRam</key>
+			<true/>
 			<key>AppleSmcIo</key>
 			<true/>
 			<key>AppleUserInterfaceTheme</key>
@@ -1635,6 +1454,19 @@
 			<key>UnblockFsConnect</key>
 			<false/>
 		</dict>
+		<key>ReservedMemory</key>
+		<array>
+			<dict>
+				<key>Address</key>
+				<integer>268435456</integer>
+				<key>Comment</key>
+				<string>HD3000: IGPU memory corruption errata</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Size</key>
+				<integer>268435456</integer>
+			</dict>
+		</array>
 	</dict>
 </dict>
 </plist>
