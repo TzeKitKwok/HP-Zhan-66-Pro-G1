@@ -40,7 +40,7 @@
 
 - 开启 [HIDPI](https://github.com/xzhih/one-key-hidpi)
 
-- 如有其他问题，请加QQ群：814700280 972643797
+- 如有其他问题，请加QQ群：G2：814700280 G1:972643797
 
 ## 参考及引用
 - [黑果小兵](https://blog.daliansky.net)
