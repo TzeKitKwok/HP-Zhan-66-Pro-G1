@@ -40,7 +40,7 @@
 
 - 开启 [HIDPI](https://github.com/xzhih/one-key-hidpi)
 
-- 如有其他问题，请加QQ群： G2：814700280  G1: 972643797
+- 如有其他问题，请加QQ群 G2:814700280 G1:972643797
 
 ## 参考及引用
 - [黑果小兵](https://blog.daliansky.net)
@@ -55,6 +55,7 @@
 - [one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
 - [HP ProBook 430/440/450 G6 Hackintosh](https://github.com/KirillSerogodsky/HP-ProBook-430-440-450-G6-Hackintosh)
 - [HpProbook450G6-Hackintosh](https://github.com/mehmetyukcell/HpProbook450G6-Hackintosh)
+- [HP-ProBook-430-G5-Hackintosh](https://github.com/kreizlie/HP-ProBook-430-G5-Hackintosh)
 
 
 ## 感谢
