@@ -36,11 +36,21 @@
 
 
 ## 注意事项
-- 出现自检错误实时时钟丢失（005）BIOS版本是`01.09.01`及以下的，使用`Docs`里面的`SSDT-RTC0.aml` 
+
+~~- 出现自检错误实时时钟丢失（005）BIOS版本是`01.09.01`及以下的，使用`Docs`里面的`SSDT-RTC0.aml`~~
+
+- 使用EFI前请更新BIOS，[BIOS下载链接](https://support.hp.com/cn-zh/drivers/selfservice/hp-zhan-66-pro-g1-notebook-pc/17996593) ，F10进入BIOS在线更新(记得插网线)
+
+- 更新10.15出现屏幕字体渲染发虚，毛刺严重在终端下执行```shell
+defaults delete -g CGFontRenderingFontSmoothingDisabled
+```
 
 - 开启 [HIDPI](https://github.com/xzhih/one-key-hidpi)
 
-- 如有其他问题，请加QQ群 G2:814700280 G1:972643797
+## 如有其他问题，请加QQ群 
+
+- 战66一代：972643797 [战66-G1  MAC交流](https://jq.qq.com/?_wv=1027&k=9p74zRj2)
+- 战66二代：814700280
 
 ## 参考及引用
 - [黑果小兵](https://blog.daliansky.net)
@@ -67,3 +77,5 @@
 - Cloverkits
 - 宪武
 - ChicCheung
+- 重启大师
+- kreizlie
