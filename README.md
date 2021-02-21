@@ -41,7 +41,8 @@
 
 - 使用EFI前请更新BIOS，[BIOS下载链接](https://support.hp.com/cn-zh/drivers/selfservice/hp-zhan-66-pro-g1-notebook-pc/17996593) ，F10进入BIOS在线更新(记得插网线)
 
-- 更新10.15出现屏幕字体渲染发虚，毛刺严重在终端下执行```shell
+- 更新10.15出现屏幕字体渲染发虚，毛刺严重在终端下执行
+```shell
 defaults delete -g CGFontRenderingFontSmoothingDisabled
 ```
 
