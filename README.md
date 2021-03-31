@@ -47,6 +47,8 @@ defaults delete -g CGFontRenderingFontSmoothingDisabled
 ```
 
 - 开启 [HIDPI](https://github.com/xzhih/one-key-hidpi)
+- [解锁TDP](https://github.com/TzeKitKwok/HP-Zhan-66-Pro-G1/tree/master/unlockTDP)
+- [CPU变频](https://github.com/corpnewt/CPUFriendFriend)
 
 ## 如有其他问题，请加QQ群 
 
@@ -80,3 +82,4 @@ defaults delete -g CGFontRenderingFontSmoothingDisabled
 - ChicCheung
 - 重启大师
 - kreizlie
+- stopyan
