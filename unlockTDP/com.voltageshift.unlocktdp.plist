@@ -5,7 +5,7 @@
 	<key>Label</key>
 	<string>com.voltageshift.unlocktdp</string>
 	<key>Program</key>
-	<string></string>
+	<string>/Users/noctis/unlockTDP/unlockTDP.command</string>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>KeepAlive</key>

@@ -12,12 +12,11 @@
 - Power Limt 2：35 W
 - Power Limt 1；25 W
 
-### 设置开机自启动
-- 打开`com.voltageshift.unlocktdp.plist`的`Program`处填写`unlockTDP.command`所在路径，例 `/Users/noctis/unlockTDP/unlockTDP.command`
-- 将`com.voltageshift.unlocktdp.plist`放到` /Library/LaunchDaemons`目录下
-- 修改文件权限 `sudo chown root:wheel /Library/LaunchDaemons/com.voltageshift.unlocktdp.plist` `sudo chmod 644 /Library/LaunchDaemons/com.voltageshift.unlocktdp.plist`
-- 启动服务并载入plist文件`sudo launchctl load /Library/LaunchDaemons/com.voltageshift.unlocktdp.plist` 或者重启
-- 检查服务的运行状态 `sudo launchctl list`
+### 开机自启动
+
+- Junction Temperature：92 ℃
+
+
 ### Credits
 
 - `One-Key-UnlockTDP` made by [@stopyan](https://github.com/stopyan)
