@@ -1,4 +1,4 @@
-# HP-Zhan-66-Pro-G1-macOS
+# HP-Zhan-66-Pro-G1-macOS 由于换了新笔记本 本项目停止更新 请移步 战66一代：972643797 [战66-G1  MAC交流](https://jq.qq.com/?_wv=1027&k=9p74zRj2)
 惠普Zhan 66 Pro G1 安装 macOS Big Sur & Catalina & Mojave & High Sierra 
 
 ## 电脑配置
