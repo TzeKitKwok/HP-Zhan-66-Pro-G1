@@ -1,6 +1,11 @@
 #!/bin/sh
 
+#sudo mount -uw /
+#sudo killall Finder
+#big sur系统以上无效
 
+sudo mkdir -p /usr/local/lib
+sudo mkdir -p /usr/local/share
 
 cd $(dirname $0)/Resources
 sudo cp -r ./DirectHW.kext /usr/local/share/DirectHW.kext
